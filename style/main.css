@@ -38,7 +38,7 @@ header nav a :hover{
 /*filme principal*/ 
 .filme-principal{
     font-size: 16px;
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/dragon-ball-z-1024x630.jpg.webp');
+    background: linear-gradient(to right, #111 32%, transparent 68%), url('/img/dbz2.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
@@ -50,6 +50,9 @@ header nav a :hover{
 .filme-principal .descricao{
     margin-bottom: 40px;
     margin-top: 10px;
+    font-weight: 200;
+    max-width: 45%;
+
 }
 .filme-principal .titulo{
     margin-top: 15%;
@@ -66,20 +69,15 @@ header nav a :hover{
     cursor: pointer;
     transition: .3s ease all;
     text-decoration: none;
+    display: flex;
 }
-.botao a:hover{
-    text-decoration: none;
+.botao:hover{
     background-color: white;
     color: black;
 }
 .botao a{
     text-decoration: none;
     color: white;
-}
-
-.botao:hover{
-    background-color: white;
-    color: black;
 }
 .botao i{
     margin-right: 8px;
